@@ -28,6 +28,8 @@ Enable the rule: `Rule1 1`
 
 Enable `SetOption66 1`
 
+Enable `TuyaMCU 51,51`
+
 This device on Tasmota 8.2 does not report a full TuyaMCU message, but it sends `55AA000000010101` when smoke is detected.
 
 I am powering this device using a PoE connection linked to a DC-DC step down PCB which fits nicely in place of the 2xAA batteries. I have soldered a cable between the power and the VCC of the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) which keep the Tasmote interface permanently available and allows simple resetting of the smoke detector after an activation.
